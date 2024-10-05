@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "26634100"))
 API_HASH = os.environ.get("API_HASH", "9ea49405d5a93e784114c469f5ce4bbd")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002007617072"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002099037878"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6321064549"))
@@ -39,7 +39,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/links_wallah_channel/11")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002007617072"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001862559523"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 

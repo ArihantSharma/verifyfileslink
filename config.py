@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "20478011"))
 API_HASH = os.environ.get("API_HASH", "0e4dcf39643e83c3c174a0d2370e5b4a")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002083092778"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002099037878"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "2061656269"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6321064549"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -32,14 +32,14 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://suryagupta1928:6thfnQ3Axz
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.com")
-SHORTLINK_API = os.environ.get('SHORTLINK_API', "544622f7e2758cda8ed00914e54b647fff7895d3")
+SHORTLINK_API = os.environ.get('SHORTLINK_API', "83bfdde237361c5f8539ea59c89571bf5575eb77")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/links_wallah_channel/11")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002014503400"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002007617072"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -47,7 +47,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<blockquote><b>ʙᴀᴋᴋᴀᴀᴀ!! {first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "2061656269 ").split()):
+    for x in (os.environ.get("ADMINS", "6321064549").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
